@@ -1,0 +1,63 @@
+// This base sets some of the top level variables but nothing that actually outputs css
+
+// Font weights
+$light: 150;
+$regular: 400;
+$bold: 700;
+
+// Base Font
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 1.4;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-bold-font-weight: 700;
+$header-bold-font-family: "daniel-n7", "daniel", sans-serif;
+$header-bold-font-style: bold;
+$header-font-weight: 400;
+$header-font-family: "daniel-n4", "daniel", sans-serif;
+$header-font-style: normal;
+
+// Border Properties
+$border-radius: 10px;
+$border-style: solid;
+
+// Width Breakpoints
+$bp-xsmall: 400px;
+$bp-small: 750px;
+$bp-med: 1000px;
+$bp-large: 1600px;
+
+// Height Breakpoints
+$bph-small: 500px;
+$bph-med: 700px;
+
+// ul {
+//   list-style-type: none;
+// }
+
+// This imports all modules inside the modules directory that have been added to the _all partial
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@import "./modules/all";

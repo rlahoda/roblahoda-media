@@ -1,0 +1,39 @@
+<div class="section_container photos__container" id="photos">
+  <h2 class="center-text">Photos</h2>
+{% if photodescription %}
+<p class="center-text text-block">{{ photodescription }}</p>
+{% endif %}
+<h3 class="center-text">People</h3>
+
+    <ul class="photos-grid">
+        {% for photo in photos_people %}
+            <li class="photos-thumbs__container">
+                <a class="fancybox" href="{{ photo.full.path }}{{ photo.full.extension }}" rel="gallery" title="{{ photo.caption }}">
+                    <img class="photos-thumbs__thumb" src="{{ photo.thumb.path }}{{ photo.thumb.extension }}" srcset="{{ photo.thumb.path }}@2x{{ photo.thumb.extension }} 2000w, {{ photo.thumb.path }}{{ photo.thumb.extension }} 1000w, {{ photo.thumb.path }}@05x{{ photo.thumb.extension }} 500w" alt="{{ photo.thumb.alt }}"/>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <h3 class="center-text">Places</h3>
+    <ul class="photos-grid">
+        {% for photo in photos_places %}
+            <li class="photos-thumbs__container">
+                <a class="fancybox" href="{{ photo.full.path }}{{ photo.full.extension }}" rel="gallery" title="{{ photo.caption }}">
+                    <img class="photos-thumbs__thumb" src="{{ photo.thumb.path }}{{ photo.thumb.extension }}" srcset="{{ photo.thumb.path }}@2x{{ photo.thumb.extension }} 2000w, {{ photo.thumb.path }}{{ photo.thumb.extension }} 1000w, {{ photo.thumb.path }}@05x{{ photo.thumb.extension }} 500w" alt="{{ photo.thumb.alt }}"/>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <h3 class="center-text">Things</h3>
+    <ul class="photos-grid">
+        {% for photo in photos_things %}
+            <li class="photos-thumbs__container">
+                <a class="fancybox" href="{{ photo.full.path }}{{ photo.full.extension }}" rel="gallery" title="{{ photo.caption }}">
+                    <img class="photos-thumbs__thumb" src="{{ photo.thumb.path }}{{ photo.thumb.extension }}" srcset="{{ photo.thumb.path }}@2x{{ photo.thumb.extension }} 2000w, {{ photo.thumb.path }}{{ photo.thumb.extension }} 1000w, {{ photo.thumb.path }}@05x{{ photo.thumb.extension }} 500w" alt="{{ photo.thumb.alt }}"/>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <p class="center-text">Interested in purchasing a print? Fill out the <a href="#contact">contact form</a> and let me know which image you're interested in!</p>
+  <div class="clearfix"></div>
+</div>

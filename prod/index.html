@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- set character encoding for the document -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Allows control over where resources are loaded from -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+    <meta name="description" content="For over 15 years I've been telling stories, first through still images and later through video as well. The passion that drives my art is learning someone's story and translating it into a visually compelling presentation.">
+    <!-- Control the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index,follow,noodp">
+    <!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow">
+    <!-- Google Specific -->
+    <!-- Short description of your site's subject -->
+    <meta name="subject" content="Multimedia producer based in Central Ohio">
+    <!-- Full domain name or web address -->
+    <meta name="url" content="http://media.roblahoda.com">
+
+    <!-- favicon stuff: just go to http://realfavicongenerator.net/ and paste in the info necessary -->
+    <!-- <meta property="fb:app_id" content="123456789"> -->
+    <meta property="og:url" content="http://media.roblahoda.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rob Lahoda • Multimedia Producer">
+    <meta property="og:image" content="http://media.roblahoda.com/assets/img/lahoda-media-production-site-image.jpg">
+    <meta property="og:description" content="For over 15 years I've been telling stories, first through still images and later through video as well. The passion that drives my art is learning someone's story and translating it into a visually compelling presentation.">
+    <meta property="og:site_name" content="Rob Lahoda • Multimedia Producer">
+    <meta property="og:locale" content="en_US">
+    <!-- <meta property="article:author" content=""> -->
+    <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
+    <!-- Open Graph: http://ogp.me/ -->
+
+    <meta name="twitter:card" content="summary">
+    <!-- <meta name="twitter:site" content="@site_account"> -->
+    <meta name="twitter:creator" content="@rmlahoda">
+    <meta name="twitter:url" content="http://media.roblahoda.com">
+    <meta name="twitter:title" content="Rob Lahoda • Multimedia Producer">
+    <meta name="twitter:description" content="For over 15 years I've been telling stories, first through still images and later through video as well. The passion that drives my art is learning someone's story and translating it into a visually compelling presentation.">
+    <meta name="twitter:image" content="http://media.roblahoda.com/assets/img/lahoda-media-production-site-image.jpg">
+    <!-- More info: https://dev.twitter.com/cards/getting-started -->
+    <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
+    <!-- <link href="https://plus.google.com/+YourPage" rel="publisher"> -->
+    <meta itemprop="name" content="Rob Lahoda • Multimedia Producer">
+    <meta itemprop="description" content="For over 15 years I've been telling stories, first through still images and later through video as well. The passion that drives my art is learning someone's story and translating it into a visually compelling presentation.">
+    <meta itemprop="image" content="http://media.roblahoda.com/assets/img/lahoda-media-production-site-image.jpg">
+
+    <!-- thanks to Josh Buchea and the other contributors at https://github.com/joshbuchea/HEAD for the head tags -->
+
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css" type="text/css" media="screen"/>
+    <script type="text/javascript" src="vendor/fancybox/jquery.fancybox.pack.js"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="vendor/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen"/>
+    <script type="text/javascript" src="vendor/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="vendor/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="vendor/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen"/>
+    <script type="text/javascript" src="vendor/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script src="https://use.typekit.net/lbb4ssu.js"></script>
+    <script>
+        try {
+            Typekit.load({async: true});
+        } catch (e) {}
+    </script>
+    <script>
+    var thisHash = window.location.hash;
+$(document).ready(function() {
+ if(window.location.hash) {
+  $(thisHash).fancybox().trigger('click');
+ }
+ $('.fancylink').fancybox();
+}); // ready
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                padding: 0,
+                margin: 10,
+                nextEffect: 'fade',
+                nextSpeed: 500,
+                prevEffect: 'fade',
+                prevSpeed: 500,
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    overlay: {
+                        css: {
+                            'background': 'rgba(255,255,255,0.5)',
+                            'text-align': 'center'
+                        }
+                    }
+                }
+            });
+
+        });
+
+        $(document).ready(function() {
+            $(".fancybox-media").fancybox({
+                padding: 0,
+                margin: 10,
+                openEffect: 'none',
+                closeEffect: 'none',
+                height: 675,
+                width: 1200,
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    overlay: {
+                        css: {
+                            'background': 'rgba(255,255,255,0.5)',
+                            'text-align': 'center'
+                        }
+                    },
+                    media: {}
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("button#primary-nav__button-button").click(function() {
+                $("ul.primary-nav__nav-list--hamburger").slideToggle(300);
+            });
+        });
+
+        $(document).ready(function() {
+            $("a.primary-nav__nav-list-item--hamburger").click(function() {
+                $("ul.primary-nav__nav-list--hamburger").slideToggle(300);
+            });
+        });
+
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length
+                        ? target
+                        : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <title>Rob Lahoda • Multimedia Producer</title>
+
+</head>
+
+<body>
+
+
+<div class="primary-nav">
+    <nav id="primary-nav__nav" class="primary-nav__nav">
+        <!-- <div class="primary-nav__logo"></div> -->
+        <div class="primary-nav__menu">
+            <h1 class="primary-nav__logo--text">
+                <a href="#">Rob Lahoda</a>
+            </h1>
+            <button type="button" name="Show/Hide Menu" id="primary-nav__button-button" class="primary-nav__button-button">Menu</button>
+        </div>
+        <!-- <div class="cf"></div> -->
+        <ul class="primary-nav__nav-list--hamburger">
+            <li>
+                <a class="primary-nav__nav-list-item primary-nav__nav-list-item--hamburger" href="#about">About Me</a>
+            </li>
+            <li>
+                <a class="primary-nav__nav-list-item primary-nav__nav-list-item--hamburger" href="#photos">Photography</a>
+            </li>
+            <li>
+                <a class="primary-nav__nav-list-item primary-nav__nav-list-item--hamburger" href="#videos">Video</a>
+            </li>
+            <li>
+                <a class="primary-nav__nav-list-item primary-nav__nav-list-item--hamburger" href="#contact">Contact Me</a>
+            </li>
+        </ul>
+        <ul class="primary-nav__nav-list--desktop">
+            <li>
+                <a class="primary-nav__nav-list-item" href="#about">About Me</a>
+            </li>
+            <li>
+                <a class="primary-nav__nav-list-item" href="#photos">Photography</a>
+            </li>
+            <li>
+                <a class="primary-nav__nav-list-item" href="#videos">Video</a>
+            </li>
+            <li>
+                <a class="primary-nav__nav-list-item" href="#contact">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="cf"></div>
+</div>
+<div class="section_container hero-background">
+
+  <div id="hero-background__slideshow" class="hero-background__slideshow">
+            <img class="hero-background__slideshow--image slideshow__image-active"  src="assets/img/photo63" srcset="assets/img/photo63@2x.jpg 3000w,assets/img/photo63.jpg 1500w, assets/img/photo63@05x.jpg 750w, assets/img/photo63@025x.jpg 400w">
+            <img class="hero-background__slideshow--image "  src="assets/img/poolcats_6-13-18" srcset="assets/img/poolcats_6-13-18@2x.jpg 3000w,assets/img/poolcats_6-13-18.jpg 1500w, assets/img/poolcats_6-13-18@05x.jpg 750w, assets/img/poolcats_6-13-18@025x.jpg 400w">
+            <img class="hero-background__slideshow--image "  src="assets/img/photo71" srcset="assets/img/photo71@2x.jpg 3000w,assets/img/photo71.jpg 1500w, assets/img/photo71@05x.jpg 750w, assets/img/photo71@025x.jpg 400w">
+            <img class="hero-background__slideshow--image "  src="assets/img/photo30" srcset="assets/img/photo30@2x.jpg 3000w,assets/img/photo30.jpg 1500w, assets/img/photo30@05x.jpg 750w, assets/img/photo30@025x.jpg 400w">
+            <img class="hero-background__slideshow--image "  src="assets/img/photo2" srcset="assets/img/photo2@2x.jpg 3000w,assets/img/photo2.jpg 1500w, assets/img/photo2@05x.jpg 750w, assets/img/photo2@025x.jpg 400w">
+    
+  </div>
+</div>
+<div class="section_container about__container" id="about">
+  <div class="about__container--box">
+    <div class="about__content">
+      <div class="about__image">
+      <img src="assets/img/me.jpg" alt="Portrait of Rob Lahoda" class="square"/>
+    </div>
+    <div class="about__image--info">
+      <h1 class="center-text">Rob Lahoda</h1>
+      <h3>Multimedia Producer and Web Designer</h3>
+    </div>
+  </div>
+  </div>
+  <div class="about__container--box">
+    <div class="about__content"><h2>Who I Am</h2>
+    <p class="text-block">For over 15 years I've been telling stories, first through still images and later through video as well. The passion that drives my art is learning someone's story and translating it into a visually compelling presentation.</p> <p class="text-block">I love sitting during an interview and asking the questions that get those deeper, more impactful answers that really allow the subject's story to gain another level of depth. It's always amazing to work through the editing process and watch the story come to life. I love to interweave multiple interviews and perspectives together to form a single story flow.</p><p class="text-block">I am fortunate to have been trained first as a photojournalist. This background has given me a deeper understanding and appreciation for getting to the root of the story. This is how I approach all of the work I do. I want to understand my subject and use my photography or video to bring the audience into the middle of the story.</p></div>
+  </div>
+  <div class="clearfix">
+
+  </div>
+</div>
+<div class="section_container photos__container" id="photos">
+  <h2 class="center-text">Photos</h2>
+<p class="center-text text-block">From as early as I can remember, I was taking pictures of the world around me. As a young boy, I was introduced to my father's Pentax camera and my future was set. I knew I wanted to be a photographer. Starting with sports photography in high school I decided that photojournalism was the way to go. I graduated from the Ohio University School of Visual Communication program having being taught by Pulitzer Prize winners, National Geographic photographers and many other incredible experts in the field. Since graduation, I've expanded the work I do, but it still comes back to photography.</p>
+<h3 class="center-text">People</h3>
+
+    <ul class="photos-grid">
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/poolcats_6-13-18.jpg" rel="gallery" title="Competitors dive into the water to start the girls 14 & Under 50 Meter Breaststroke race. Westerville, OH. Summer 2018">
+                    <img class="photos-thumbs__thumb" src="./assets/img/poolcats_6-13-18_thumb.jpg" srcset="./assets/img/poolcats_6-13-18_thumb@2x.jpg 2000w, ./assets/img/poolcats_6-13-18_thumb.jpg 1000w, ./assets/img/poolcats_6-13-18_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo71.jpg" rel="gallery" title="A blowtorch is used to soften molten glass that will become a bottle at Fire Arts Vermont studio. Brattleboro, Vt. Summer, 2016">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo71_thumb.jpg" srcset="./assets/img/photo71_thumb@2x.jpg 2000w, ./assets/img/photo71_thumb.jpg 1000w, ./assets/img/photo71_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo70.jpg" rel="gallery" title="Randi Solin works with glass that will become a bottle at Fire Arts Vermont studio. Brattleboro, Vt. Summer, 2016">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo70_thumb.jpg" srcset="./assets/img/photo70_thumb@2x.jpg 2000w, ./assets/img/photo70_thumb.jpg 1000w, ./assets/img/photo70_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo49.jpg" rel="gallery" title="Kristy Lahoda walks down a street in the old town of Villefranche-sur-Mer, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo49_thumb.jpg" srcset="./assets/img/photo49_thumb@2x.jpg 2000w, ./assets/img/photo49_thumb.jpg 1000w, ./assets/img/photo49_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo46.jpg" rel="gallery" title="A man contemplates the 9/11 memorial in New York City, NY. Spring, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo46_thumb.jpg" srcset="./assets/img/photo46_thumb@2x.jpg 2000w, ./assets/img/photo46_thumb.jpg 1000w, ./assets/img/photo46_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo44.jpg" rel="gallery" title="Kristy Lahoda swims butterfly in the ocean off the coast of Salvo, NC. Summer, 2014">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo44_thumb.jpg" srcset="./assets/img/photo44_thumb@2x.jpg 2000w, ./assets/img/photo44_thumb.jpg 1000w, ./assets/img/photo44_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo38.jpg" rel="gallery" title="The hands of a young child hunting for acorns. Spring, 2014">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo38_thumb.jpg" srcset="./assets/img/photo38_thumb@2x.jpg 2000w, ./assets/img/photo38_thumb.jpg 1000w, ./assets/img/photo38_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo33.jpg" rel="gallery" title="Self portrait">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo33_thumb.jpg" srcset="./assets/img/photo33_thumb@2x.jpg 2000w, ./assets/img/photo33_thumb.jpg 1000w, ./assets/img/photo33_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo30.jpg" rel="gallery" title="Kristy Lahoda practices swimming butterfly in an outdoor pool. Duck, NC. Summer, 2008">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo30_thumb.jpg" srcset="./assets/img/photo30_thumb@2x.jpg 2000w, ./assets/img/photo30_thumb.jpg 1000w, ./assets/img/photo30_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo28.jpg" rel="gallery" title="Kristy Lahoda practices swimming butterfly in an outdoor pool. Duck, NC. Summer, 2008">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo28_thumb.jpg" srcset="./assets/img/photo28_thumb@2x.jpg 2000w, ./assets/img/photo28_thumb.jpg 1000w, ./assets/img/photo28_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo20.jpg" rel="gallery" title="Kristy Lahoda walks along the water on the island of Iona, Scotland. Summer, 2005">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo20_thumb.jpg" srcset="./assets/img/photo20_thumb@2x.jpg 2000w, ./assets/img/photo20_thumb.jpg 1000w, ./assets/img/photo20_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo19.jpg" rel="gallery" title="A piper takes a break while another is playing outside St Giles Cathedral during the Edinburgh Fringe Festival. Edinburgh, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo19_thumb.jpg" srcset="./assets/img/photo19_thumb@2x.jpg 2000w, ./assets/img/photo19_thumb.jpg 1000w, ./assets/img/photo19_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo18.jpg" rel="gallery" title="Two young fiddle players during the Edinburgh Fringe Festival. Edinburgh, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo18_thumb.jpg" srcset="./assets/img/photo18_thumb@2x.jpg 2000w, ./assets/img/photo18_thumb.jpg 1000w, ./assets/img/photo18_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo16.jpg" rel="gallery" title="A young boy looks out the front window of a canal boat on the Union canal during the annual Canal Days celebration in Linlithgow, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo16_thumb.jpg" srcset="./assets/img/photo16_thumb@2x.jpg 2000w, ./assets/img/photo16_thumb.jpg 1000w, ./assets/img/photo16_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo15.jpg" rel="gallery" title="The captain of a small seal watching boat. Oban, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo15_thumb.jpg" srcset="./assets/img/photo15_thumb@2x.jpg 2000w, ./assets/img/photo15_thumb.jpg 1000w, ./assets/img/photo15_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo10.jpg" rel="gallery" title="Sebastian Fritz grinds metal in his home workshop. Plochingen, Germany. Winter, 2003">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo10_thumb.jpg" srcset="./assets/img/photo10_thumb@2x.jpg 2000w, ./assets/img/photo10_thumb.jpg 1000w, ./assets/img/photo10_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo9.jpg" rel="gallery" title="The Ohio University men's crew team practices early morning on Dow Lake near Athens, OH. Fall, 2002">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo9_thumb.jpg" srcset="./assets/img/photo9_thumb@2x.jpg 2000w, ./assets/img/photo9_thumb.jpg 1000w, ./assets/img/photo9_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo7.jpg" rel="gallery" title="A performer at the Edinburgh Fringe Festival, Edinburgh, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo7_thumb.jpg" srcset="./assets/img/photo7_thumb@2x.jpg 2000w, ./assets/img/photo7_thumb.jpg 1000w, ./assets/img/photo7_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo6.jpg" rel="gallery" title="Alvaro Llanos reads a 'get well soon' note at home. Llanos was recovering from severe burns suffered during a dorm fire at Seton Hall University that killed 3 students and seriously injured 58. Llanos and his roomate were critically burned trying to escape. In 2000 Llanos and his roomate were the subjects of a 9-month project by the Start-Ledger newspaper documenting their recovery. The photographer, Matt Rainey, won the 2001 Pulitzer Prize for the project. Matt was an early influence for me as a photographer and was kind enough to let me join him during one of his days of photographing the students. Spring, 2000">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo6_thumb.jpg" srcset="./assets/img/photo6_thumb@2x.jpg 2000w, ./assets/img/photo6_thumb.jpg 1000w, ./assets/img/photo6_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo5.jpg" rel="gallery" title="Randy Surface sits in a pew in Galbreath Chapel on the Ohio University campus. Spring, 2000">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo5_thumb.jpg" srcset="./assets/img/photo5_thumb@2x.jpg 2000w, ./assets/img/photo5_thumb.jpg 1000w, ./assets/img/photo5_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo4.jpg" rel="gallery" title="A small steamboat is readied for sailing on the Union canal during the annual Canal Days celebration in Linlithgow, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo4_thumb.jpg" srcset="./assets/img/photo4_thumb@2x.jpg 2000w, ./assets/img/photo4_thumb.jpg 1000w, ./assets/img/photo4_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo3.jpg" rel="gallery" title="Orlando Magic center, Michael Doleac, blocks New Jersey Nets guard, Stephon Marbury, during the Nets- Magic game on December 2, 2000 at the Meadowlands in New Jersey.  The Nets lost, 74-95.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo3_thumb.jpg" srcset="./assets/img/photo3_thumb@2x.jpg 2000w, ./assets/img/photo3_thumb.jpg 1000w, ./assets/img/photo3_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo2.jpg" rel="gallery" title="76 year-old retired VW dealer, Bob Cone puts half of a Volkswagen engine block on a stand for cleaning.  The engine was removed from the car behind him when he rebuilt the engine for a customer.  Now retired from restoring, he still works on cars for customers, but not as much as he used to.  Cone's attachment to the cars started in the early 70's when he bought one for himself.  The car is still in pristine working condition and has been used by him, his wife, and his son. Spring, 2000">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo2_thumb.jpg" srcset="./assets/img/photo2_thumb@2x.jpg 2000w, ./assets/img/photo2_thumb.jpg 1000w, ./assets/img/photo2_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo1.jpg" rel="gallery" title="Sophomore Melissa Hicks practices her slalom technique during her weekly water-skiing class in spring 2000.  The class is offered to all students during spring quarter.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo1_thumb.jpg" srcset="./assets/img/photo1_thumb@2x.jpg 2000w, ./assets/img/photo1_thumb.jpg 1000w, ./assets/img/photo1_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+            </ul>
+    <h3 class="center-text">Places</h3>
+    <ul class="photos-grid">
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo69.jpg" rel="gallery" title="Water blurs as it flows over rocks. Burlington, VT. Summer, 2016">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo69_thumb.jpg" srcset="./assets/img/photo69_thumb@2x.jpg 2000w, ./assets/img/photo69_thumb.jpg 1000w, ./assets/img/photo69_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo67.jpg" rel="gallery" title="Leafless trees disappear into the mist. Raritan Township, NJ. Winter, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo67_thumb.jpg" srcset="./assets/img/photo67_thumb@2x.jpg 2000w, ./assets/img/photo67_thumb.jpg 1000w, ./assets/img/photo67_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo66.jpg" rel="gallery" title="L'Arc de Triomphe from the top of the Eiffel Tower. Paris, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo66_thumb.jpg" srcset="./assets/img/photo66_thumb@2x.jpg 2000w, ./assets/img/photo66_thumb.jpg 1000w, ./assets/img/photo66_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo65.jpg" rel="gallery" title="La Sainte-Chappelle. Paris, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo65_thumb.jpg" srcset="./assets/img/photo65_thumb@2x.jpg 2000w, ./assets/img/photo65_thumb.jpg 1000w, ./assets/img/photo65_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo64.jpg" rel="gallery" title="Looking up through the base of the Eiffel Tower from ground level. Paris, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo64_thumb.jpg" srcset="./assets/img/photo64_thumb@2x.jpg 2000w, ./assets/img/photo64_thumb.jpg 1000w, ./assets/img/photo64_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo63.jpg" rel="gallery" title="The sky continues to glow just after sunset behind the Eiffel Tower. Paris, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo63_thumb.jpg" srcset="./assets/img/photo63_thumb@2x.jpg 2000w, ./assets/img/photo63_thumb.jpg 1000w, ./assets/img/photo63_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo62.jpg" rel="gallery" title="The ceiling of Église Saint-Suplice. Paris, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo62_thumb.jpg" srcset="./assets/img/photo62_thumb@2x.jpg 2000w, ./assets/img/photo62_thumb.jpg 1000w, ./assets/img/photo62_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo61.jpg" rel="gallery" title="Lights illuminate the front of Strasbourg Cathedral. Strasbourg, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo61_thumb.jpg" srcset="./assets/img/photo61_thumb@2x.jpg 2000w, ./assets/img/photo61_thumb.jpg 1000w, ./assets/img/photo61_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo60.jpg" rel="gallery" title="Dusk settles over the river Ill as lights illuminate les Ponts Couverts in the La Petite France section of Strasbourg, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo60_thumb.jpg" srcset="./assets/img/photo60_thumb@2x.jpg 2000w, ./assets/img/photo60_thumb.jpg 1000w, ./assets/img/photo60_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo59.jpg" rel="gallery" title="Dusk settles over a still canal in the La Petite France section of Strasbourg, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo59_thumb.jpg" srcset="./assets/img/photo59_thumb@2x.jpg 2000w, ./assets/img/photo59_thumb.jpg 1000w, ./assets/img/photo59_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo58.jpg" rel="gallery" title="The façade on the front of Strasbourg Cathedral. Strasbourg, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo58_thumb.jpg" srcset="./assets/img/photo58_thumb@2x.jpg 2000w, ./assets/img/photo58_thumb.jpg 1000w, ./assets/img/photo58_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo57.jpg" rel="gallery" title="Vines frame a view of Schauenberg, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo57_thumb.jpg" srcset="./assets/img/photo57_thumb@2x.jpg 2000w, ./assets/img/photo57_thumb.jpg 1000w, ./assets/img/photo57_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo56.jpg" rel="gallery" title="Vineyards, Alsace, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo56_thumb.jpg" srcset="./assets/img/photo56_thumb@2x.jpg 2000w, ./assets/img/photo56_thumb.jpg 1000w, ./assets/img/photo56_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo55.jpg" rel="gallery" title="Flowers in front of the Eglise Gueberschwihr. Gueberschwihr, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo55_thumb.jpg" srcset="./assets/img/photo55_thumb@2x.jpg 2000w, ./assets/img/photo55_thumb.jpg 1000w, ./assets/img/photo55_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo54.jpg" rel="gallery" title="A back street alleyway in Villefranche-sur-Mer, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo54_thumb.jpg" srcset="./assets/img/photo54_thumb@2x.jpg 2000w, ./assets/img/photo54_thumb.jpg 1000w, ./assets/img/photo54_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo52.jpg" rel="gallery" title="The town of Menton, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo52_thumb.jpg" srcset="./assets/img/photo52_thumb@2x.jpg 2000w, ./assets/img/photo52_thumb.jpg 1000w, ./assets/img/photo52_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo51.jpg" rel="gallery" title="The town of Falicon, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo51_thumb.jpg" srcset="./assets/img/photo51_thumb@2x.jpg 2000w, ./assets/img/photo51_thumb.jpg 1000w, ./assets/img/photo51_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo48.jpg" rel="gallery" title="An oil well silently stands under the Milky Way. Winfield, KS. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo48_thumb.jpg" srcset="./assets/img/photo48_thumb@2x.jpg 2000w, ./assets/img/photo48_thumb.jpg 1000w, ./assets/img/photo48_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo47.jpg" rel="gallery" title="A Staten Island Ferry leaves Manhattan bound for Staten Island. New York City, NY. Spring, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo47_thumb.jpg" srcset="./assets/img/photo47_thumb@2x.jpg 2000w, ./assets/img/photo47_thumb.jpg 1000w, ./assets/img/photo47_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo41.jpg" rel="gallery" title="The Bodie Island Lighthouse shines bright under the Milky Way. Nags Head, NC. Summer, 2014">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo41_thumb.jpg" srcset="./assets/img/photo41_thumb@2x.jpg 2000w, ./assets/img/photo41_thumb.jpg 1000w, ./assets/img/photo41_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo40.jpg" rel="gallery" title="Reminants of a shipwreck lie just off the beach near Salvo, NC. Summer, 2014">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo40_thumb.jpg" srcset="./assets/img/photo40_thumb@2x.jpg 2000w, ./assets/img/photo40_thumb.jpg 1000w, ./assets/img/photo40_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo34.jpg" rel="gallery" title="Strasburg Railroad engine 475 finishes the last trip of the day. Fall, 2013">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo34_thumb.jpg" srcset="./assets/img/photo34_thumb@2x.jpg 2000w, ./assets/img/photo34_thumb.jpg 1000w, ./assets/img/photo34_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo31.jpg" rel="gallery" title="Frost coats a twig on a snowy day. Westerville, OH. Winter, 2009">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo31_thumb.jpg" srcset="./assets/img/photo31_thumb@2x.jpg 2000w, ./assets/img/photo31_thumb.jpg 1000w, ./assets/img/photo31_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo22.jpg" rel="gallery" title="The view from Hohenzollern Castle near Heichingen, Germany. Spring, 2007">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo22_thumb.jpg" srcset="./assets/img/photo22_thumb@2x.jpg 2000w, ./assets/img/photo22_thumb.jpg 1000w, ./assets/img/photo22_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo21.jpg" rel="gallery" title="Mt Rainier. Washington State. Summer, 2006">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo21_thumb.jpg" srcset="./assets/img/photo21_thumb@2x.jpg 2000w, ./assets/img/photo21_thumb.jpg 1000w, ./assets/img/photo21_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo17.jpg" rel="gallery" title="St Giles Cathedral. Edinburgh, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo17_thumb.jpg" srcset="./assets/img/photo17_thumb@2x.jpg 2000w, ./assets/img/photo17_thumb.jpg 1000w, ./assets/img/photo17_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo14.jpg" rel="gallery" title="Edinburgh Castle sits on a rocky cliff overlooking the city of Edinburgh, Scotland. Summer, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo14_thumb.jpg" srcset="./assets/img/photo14_thumb@2x.jpg 2000w, ./assets/img/photo14_thumb.jpg 1000w, ./assets/img/photo14_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo13.jpg" rel="gallery" title="Twin beams of light rise from lower Manhattan, New York City, marking the sites of the former World Trade Center. The Tribute in Light memorial was erected to mark the site of the attacks on September 11, 2001. Winter, 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo13_thumb.jpg" srcset="./assets/img/photo13_thumb@2x.jpg 2000w, ./assets/img/photo13_thumb.jpg 1000w, ./assets/img/photo13_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo11.jpg" rel="gallery" title="Neuschwanstein Castle looms out of the snowy landscape. Füssen, Germany. Winter, 2003">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo11_thumb.jpg" srcset="./assets/img/photo11_thumb@2x.jpg 2000w, ./assets/img/photo11_thumb.jpg 1000w, ./assets/img/photo11_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo8.jpg" rel="gallery" title="Castle Stalker, near Fort Williams, Scotland. Summer 2001">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo8_thumb.jpg" srcset="./assets/img/photo8_thumb@2x.jpg 2000w, ./assets/img/photo8_thumb.jpg 1000w, ./assets/img/photo8_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+            </ul>
+    <h3 class="center-text">Things</h3>
+    <ul class="photos-grid">
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo74.jpg" rel="gallery" title="The milky way. Winter, 2016">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo74_thumb.jpg" srcset="./assets/img/photo74_thumb@2x.jpg 2000w, ./assets/img/photo74_thumb.jpg 1000w, ./assets/img/photo74_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo72.jpg" rel="gallery" title="A finished handmade glass bottle at Fire Arts Vermont studio. Brattleboro, Vt. Summer, 2016">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo72_thumb.jpg" srcset="./assets/img/photo72_thumb@2x.jpg 2000w, ./assets/img/photo72_thumb.jpg 1000w, ./assets/img/photo72_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo68.jpg" rel="gallery" title="The moon. Spring, 2016">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo68_thumb.jpg" srcset="./assets/img/photo68_thumb@2x.jpg 2000w, ./assets/img/photo68_thumb.jpg 1000w, ./assets/img/photo68_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo53.jpg" rel="gallery" title="A cat rests on a cool metal rooftop early morning. Villefranche-sur-Mer, France. Summer, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo53_thumb.jpg" srcset="./assets/img/photo53_thumb@2x.jpg 2000w, ./assets/img/photo53_thumb.jpg 1000w, ./assets/img/photo53_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo45.jpg" rel="gallery" title="A flower placed in the 9/11 memorial in New York City, NY. Spring, 2015">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo45_thumb.jpg" srcset="./assets/img/photo45_thumb@2x.jpg 2000w, ./assets/img/photo45_thumb.jpg 1000w, ./assets/img/photo45_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo43.jpg" rel="gallery" title="The stairs leading up the inside of the Cape Hatteras Lighthouse. Buxton, NC. Summer, 2014">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo43_thumb.jpg" srcset="./assets/img/photo43_thumb@2x.jpg 2000w, ./assets/img/photo43_thumb.jpg 1000w, ./assets/img/photo43_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo42.jpg" rel="gallery" title="The stairs to the top of the Cape Hatteras Lighthouse. Buxton, NC. Summer, 2014">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo42_thumb.jpg" srcset="./assets/img/photo42_thumb@2x.jpg 2000w, ./assets/img/photo42_thumb.jpg 1000w, ./assets/img/photo42_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo39.jpg" rel="gallery" title="Flower">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo39_thumb.jpg" srcset="./assets/img/photo39_thumb@2x.jpg 2000w, ./assets/img/photo39_thumb.jpg 1000w, ./assets/img/photo39_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo37.jpg" rel="gallery" title="Leaf on wood background">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo37_thumb.jpg" srcset="./assets/img/photo37_thumb@2x.jpg 2000w, ./assets/img/photo37_thumb.jpg 1000w, ./assets/img/photo37_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo36.jpg" rel="gallery" title="Orchid.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo36_thumb.jpg" srcset="./assets/img/photo36_thumb@2x.jpg 2000w, ./assets/img/photo36_thumb.jpg 1000w, ./assets/img/photo36_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo35.jpg" rel="gallery" title="Leaf.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo35_thumb.jpg" srcset="./assets/img/photo35_thumb@2x.jpg 2000w, ./assets/img/photo35_thumb.jpg 1000w, ./assets/img/photo35_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo32.jpg" rel="gallery" title="Closeup of bicycle rear casette.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo32_thumb.jpg" srcset="./assets/img/photo32_thumb@2x.jpg 2000w, ./assets/img/photo32_thumb.jpg 1000w, ./assets/img/photo32_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo29.jpg" rel="gallery" title="A shell sits in the receding tide. Duck, NC. Summer, 2008">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo29_thumb.jpg" srcset="./assets/img/photo29_thumb@2x.jpg 2000w, ./assets/img/photo29_thumb.jpg 1000w, ./assets/img/photo29_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo27.jpg" rel="gallery" title="A cat peeks through the some blinds. Westerville, OH. Summer, 2008">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo27_thumb.jpg" srcset="./assets/img/photo27_thumb@2x.jpg 2000w, ./assets/img/photo27_thumb.jpg 1000w, ./assets/img/photo27_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo26.jpg" rel="gallery" title="A male mandrill at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo26_thumb.jpg" srcset="./assets/img/photo26_thumb@2x.jpg 2000w, ./assets/img/photo26_thumb.jpg 1000w, ./assets/img/photo26_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo25.jpg" rel="gallery" title="A gibbon takes a moment to ponder life at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo25_thumb.jpg" srcset="./assets/img/photo25_thumb@2x.jpg 2000w, ./assets/img/photo25_thumb.jpg 1000w, ./assets/img/photo25_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo24.jpg" rel="gallery" title="A ray glides along the glass at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo24_thumb.jpg" srcset="./assets/img/photo24_thumb@2x.jpg 2000w, ./assets/img/photo24_thumb.jpg 1000w, ./assets/img/photo24_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+                    <li class="photos-thumbs__container">
+                <a class="fancybox" href="./assets/img/photo23.jpg" rel="gallery" title="A flamingo cleans off at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006">
+                    <img class="photos-thumbs__thumb" src="./assets/img/photo23_thumb.jpg" srcset="./assets/img/photo23_thumb@2x.jpg 2000w, ./assets/img/photo23_thumb.jpg 1000w, ./assets/img/photo23_thumb@05x.jpg 500w" alt=""/>
+                </a>
+            </li>
+            </ul>
+    <p class="center-text">Interested in purchasing a print? Fill out the <a href="#contact">contact form</a> and let me know which image you're interested in!</p>
+  <div class="clearfix"></div>
+</div>
+<div class="section_container videos__container" id="videos">
+  <h2 class="center-text">Videos</h2>
+    <p class="center-text text-block">As I grew as a visual storyteller, I experimented with different ways of telling the story. One of these was through creating photo slideshows. As I experimented with different video editing programs to create my slideshows, I decided to try to use those programs to create actual videos. Thus was born my love of video production. While completing my photojournalism degree, I started taking video producion classes so I was able to stick around for 1 more year and earn the video degree on top of my photography degree. Since then I've worked doing a variety of video production, including single-camera narrative, interview-based, sports, live event recording and other projects. I've had lots of fun travelling around the world for projects to help my clients tell their stories the most effectively.</p>
+      <ul class="videos-grid">
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=TScU69Wk79c" title="In early 2015 I was asked to help a friend film a music video. He's an African singer now living in the USA and he had already recorded his latest song but didn't have a video for it yet. Over the course of a few months, we put together an idea and filmed it in spring, 2016. Since he didn't have a budget, I was the full crew, but it was a lot of fun to work so closely with the artist and try to figure out what the best way to visualize his music would be.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/il_ma_aime.jpg" srcset="./assets/img/il_ma_aime@2x.jpg 2x, .jpg 1000w, ./assets/img/il_ma_aime@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">Il m'a aimé (He Loved Me)</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=83snm30rhTU" title="The American Triple-T in Ohio has an almost cult like following that continues to attract athletes from more than 40 states and 5 countries each year. Scheduled for the first weekend before Memorial Day each year, the American Triple-T is played out in the majestic Shawnee State Park and Forest located in Portsmouth, Ohio, just 1.5 hours by car from the Columbus, Cincinnati and the Tri State areas. The Shawnee State Park and Forest is known for its spectacular beauty, peaceful bliss and a wide variety of challenging terrain as it is nestled in the southeast corner of Ohio.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/ttt2016promo.jpg" srcset="./assets/img/ttt2016promo@2x.jpg 2x, .jpg 1000w, ./assets/img/ttt2016promo@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">American Triple-T 2016 Promo</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=zFrSzjyKK4s" title="In spring 2015 Nikon was running a competition that involved telling your story in a video. I decided to enter and, with the help of my wife Kristy Lahoda, put together a short video telling the story of her 20-year battle with anorexia.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/kristyan.jpg" srcset="./assets/img/kristyan@2x.jpg 2x, .jpg 1000w, ./assets/img/kristyan@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">Kristy Lahoda - Anorexia</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=lbJxnfzxRp8" title="After the weekend, the work on the promo began again. This year, thanks to the rain, none of my interviews worked out. So I decided to come from a different approach. The client said they wanted to highlight the difficulty of the race so I came up with a short script and found some inspiring and intense music and had a voiceover recorded. The end result, I think, came out really awesome. It's always a challenge trying to fit this crazy weekend into a short video but it's a lot of fun to film and edit!">
+                    <img class="photos-thumbs__thumb" src="./assets/img/ttt2015promo.jpg" srcset="./assets/img/ttt2015promo@2x.jpg 2x, .jpg 1000w, ./assets/img/ttt2015promo@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">American Triple-T 2015 Promo</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=c6NmFUCeoN0" title="Once again I was called up to return to Southern Ohio for another fun filled weekend filming the Triple-T! With two years already under my belt I knew what I was getting into, but there are always surprises. This year it was rainy. Not just a little drizzle or something, this was a full-on downpour at times. In fact, if you watch closely during this video at the end when racers are coming into the finish it kinda looks like they are different days because some shots are dry and sunny and others are heavy rain, but those shots were within an hour of each other. That's how crazy the rain was this year.&nbsp; Once again, I wanted to add a new element into the mix. This year it was a mini jib. I went with the Genustech Mini Jib because I was looking for something compact, lightweight and well built. The jib worked way better than I could have imagined it would. It added another great dimension to the look and feel of the video allowing me to get the camera in places I hadn't been able to try before.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/ttt2015recap.jpg" srcset="./assets/img/ttt2015recap@2x.jpg 2x, .jpg 1000w, ./assets/img/ttt2015recap@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">American Triple-T 2015 Recap</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=Q6Q5Yz-S6gI" title="Once again, after the weekend came to a close I returned home to begin working on the edit for the promo video. This time, instead of interviewing racers after the fact, I decided to try to get some interviews during the times between races. This worked out really well. I was able to go to the nearby campground where a lot of racers were camping as well as the cabins on the park grounds. Getting these stories added a lot to the video and really showed what the weekend is all about. It's not just a race, it's about the camaraderie and friendships that are built through sharing in this pain fest all weekend.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/ttt2014promo.jpg" srcset="./assets/img/ttt2014promo@2x.jpg 2x, .jpg 1000w, ./assets/img/ttt2014promo@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">American Triple-T 2014 Promo</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=aZE_vtUSa4Y" title="The second time around for the Triple-T was a ton of fun. After the crazy adventure of the first year, I came back with a better idea of what I was getting into and what I needed to do. In addition, I had a few new tricks up my sleeve. The first was that I switched from shooting with my tape-based HDV camera to a DSLR. I rented a Nikon D800 from Lensrentals.com and used that as my primary camera throughout the weekend. I also added a GoPro as a secondary camera which allowed me to get some pretty great shots of the racers in motion. One of my favorite shots was when I put the GoPro on the back of my car and paced near a racer. I also added a camera slider to give me a variety of camera moves I wasn't able to achieve previously. Instead of going with a standard one on rails, I decided to go with the CineMover which is more a mini dolly than a slider. The cool thing with the CineMover is that you can use it on anything that is flat so I brought a metal sawhorse and a piece of vinyl  fence post to use for the sliding moves. Between the two I was able to capture higher and lower moves. Having the Cinemover added a lot to the impact of the video.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/ttt2014recap.jpg" srcset="./assets/img/ttt2014recap@2x.jpg 2x, .jpg 1000w, ./assets/img/ttt2014recap@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">American Triple-T 2014 Recap</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=SNOGa2GguwY" title="Doing a same-day edit is always a challenge. Add to that the fact that I was shooting solo and chasing racers over a 50+ mile course and you have quite an adventure. The whole weekend was a blur of races, editing and moving around starting before dawn each morning and going late into the evening each night. My client wanted something that would show the fun and excitement of the race weekend as well as show off the professional triathletes who came to race. This meant that when shooting the big half-iron distance race on Sunday I needed to capture as much as I could at the swim site and then race ahead of the pack to capture the leaders as they went along the course. The challenge is balanced by the reward and satisfaction of pulling together something exciting on such a short time frame.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/cnarecap.jpg" srcset="./assets/img/cnarecap@2x.jpg 2x, .jpg 1000w, ./assets/img/cnarecap@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">Challenge New Albany Race Day Recap</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=i_iIK3zNTf4" title="After creating the Challenge New Albany pre-race promo video I was approached by the race director of another new race, this time in California, Challenge Rancho Cordova. The premise was similar, I needed to create a video to build excitement and help the race director build sponsors. The client only had a series of stock images and video from the larger Challenge organization that I could use to create the product. In addition, the client needed the video on an extremely tight turnaround. &nbsp; I was able to reuse some of the sequences I created for the Challenge New Albany video in addition to creating new content for this video. Ultimately, I was able to deliver the video on time for some critical sponsorship meetings.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/crcsizzle.jpg" srcset="./assets/img/crcsizzle@2x.jpg 2x, .jpg 1000w, ./assets/img/crcsizzle@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">Challenge Rancho Cordova Pre-Race Sizzle Reel</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=SRLza-L-RiQ" title="So how do you promote a race that doesn't exist yet? That was the challenge I was given by the client when I was asked to create a promo video that would build excitement and energy for a new race coming up later that year. Challenge New Albany was a new race as a part of the Challenge Family of races and would involve half-iron and Olympic distance races as well as a series of other races that would be running throughout the weekend.&nbsp; I was asked to create this video to show the different races and some of the information about the event by the race management company in charge of the event, HFP Racing. They were able to supply me with a large amount of stock images from the Challenge Family that I could use to build the video from. I then took those images and build motion graphics using the images as well as other elements I created myself to match the branding and feel of the original image.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/cnapromo.jpg" srcset="./assets/img/cnapromo@2x.jpg 2x, .jpg 1000w, ./assets/img/cnapromo@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">Challenge New Albany Pre-Race Promo</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=ExZW7-lMU6g" title="After working hard on the recap video, I came back home and got to work on producing a promotional video for Triple-T with the footage I shot. I decided to ask for some volunteers to be interviewed in the Columbus area and was able to connect with three. My goal was to weave their stories throughout the video to give the audience a feel for what it takes to complete the race.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/ttt2013promo.jpg" srcset="./assets/img/ttt2013promo@2x.jpg 2x, .jpg 1000w, ./assets/img/ttt2013promo@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">American Triple-T 2013 Promo</h4>
+            </li>
+                    <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="https://www.youtube.com/watch?v=PmOGE52HIGs" title="It started as a simple request, but has grown to be one of my favorite events to film each year. The American Triple-T is a three-day triathlon series in southern Ohio. This intense race has been challenging racers for years with it's steep climbs and challenging terrain. This first year was a blur of running around trying to film the racers as the covered over a hundred miles of racing that weekend. In addition, I would go back to my room and spend hours capturing and editing my footage. At the end of the race during the awards ceremony I played this video made up of footage from all three days of racing. It was an intense effort made even more challenging by the fact that I was filming the event on my Sony HDV camera. So once I was done filming I still had a real-time capture ahead before I could start to work with the footage.">
+                    <img class="photos-thumbs__thumb" src="./assets/img/ttt2013recap.jpg" srcset="./assets/img/ttt2013recap@2x.jpg 2x, .jpg 1000w, ./assets/img/ttt2013recap@05x.jpg 500w" alt=""/>
+                </a>
+                <h4 class="center-text">American Triple-T 2013 Recap</h4>
+            </li>
+            </ul>
+  <div class="clearfix"></div>
+</div>
+<div class="section_container contact__container" id="contact">
+    <div id="form-messages"></div>
+    <h2 class="center-text">Drop me a line</h2>
+    <p class="center-text">I would love to hear from you! Fill out this form if you're interested in purchasing prints and also I'm available to help you with your multimedia production needs.</p>
+    <form id="ajax-contact" class="contact__form" action="mailer.php" method="post">
+        <div class="form__container">
+            <div class="form__field">
+                <label for="name" ><h3>Name:</h3></label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form__field">
+                <label for="email"><h3>Email:</h3></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </div>
+
+        <div class="form__container">
+            <div class="form__field">
+                <label for="message"><h3>Message:</h3></label>
+                <textarea id="message" name="message" required rows="6"></textarea>
+            </div>
+        </div>
+        <div class="form__container form__container--wide">
+            <div class="form__field">
+                <button type="submit">Send</button>
+            </div>
+        </div>
+        <div class="clearfix">
+
+        </div>
+    </form>
+
+</div>
+
+<div class="section_container footer" id="footer">
+<div class="footer__widget footer__widget--full-width">
+  <h3 class="center-text">Rob Lahoda • Multimedia Producer</h3>
+  <p class="center-text">Multimedia Production • Video Production • Photography • Graphic Design • Motion Graphics • Live Event Recording</p>
+  <p class="center-text">Westerville, OH 43081</p>
+  <p class="center-text">I also do web design and designed this site myself. If you want to learn more about my work in web design you can check it out at <a href="roblahoda.com">roblahoda.com</a>.</p>
+</div>
+<div class="footer__widget footer__widget--full-width">
+  <p class="center-text">All photos and content © Copyright <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script> Robert Lahoda</p>
+</div>
+</div>
+<!-- <script src="vendor/device.min.js"></script> -->
+<script type="text/javascript" src="vendor/ajax-contact-form/contact.js"></script>
+<script type="text/javascript" src="scripts/hero.js"></script>
+<!-- <script type="text/javascript" src="vendor/jquery.backstretch.min.js"></script> -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90187665-1', 'auto');
+  ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function () {
+	jQuery('.primary-nav__nav-list-item').click(function(){
+		var match = jQuery(this).attr('href').match(/#\S+/);
+		ga('send', 'pageview', location.pathname + match[0]);
+	});
+});
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function () {
+	jQuery('.fancybox-media').click(function(){
+		var match = jQuery(this).attr('href');
+		ga('send', 'pageview', match[0]);
+	});
+});
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function () {
+	jQuery('.fancybox').click(function(){
+		var match = jQuery(this).attr('href');
+		ga('send', 'pageview', match[0]);
+	});
+});
+</script>
+<script type="text/javascript" src="scripts/trigger.js">
+
+</script>
+<script>
+        var trackOutboundLink = function(url) {
+        ga('send', 'event', 'outbound', 'click', url, {
+          'transport': 'beacon',
+          'hitCallback': function() {
+            document.location = url;
+          }
+        });
+      }
+    </script>
+</body>
+
+
+</html>

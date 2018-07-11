@@ -1,0 +1,76 @@
+#form__messages {
+  height: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 25% 0;
+}
+
+.contact__container {
+  background-color: $primary-gray;
+}
+
+.contact__form {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  color: $accent-clr;
+}
+
+.form__container {
+  width: 85%;
+  float: left;
+  // background-color: blue;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+
+  @include respond-at($bp-small) {
+    width: 45%;
+  }
+}
+
+.form__container--wide {
+  width: 85%;
+}
+
+.form__field {
+  width: calc(100% - 1em);
+  padding: 0.5em;
+  // background-color: green;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input,
+textarea {
+  width: 75%;
+  border-radius: 10px;
+  padding: 0.5em;
+  border: 1.5px $accent-clr solid;
+}
+
+button {
+  width: 75%;
+  padding: 0.2em;
+  margin: 0.5em;
+  font-size: 1.5em;
+  background-color: $accent2-clr;
+  border: 1.5px solid $accent-clr;
+  color: white;
+
+  &:hover {
+    background-color: $accent-clr;
+  }
+
+  &:active {
+    background-color: $base-clr;
+  }
+
+  @include respond-at($bp-small) {
+    width: 25%;
+  }
+}

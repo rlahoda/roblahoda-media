@@ -1,0 +1,9 @@
+<div class="section_container hero-background">
+
+  <div id="hero-background__slideshow" class="hero-background__slideshow">
+    {% for bg in bgs %}
+        <img class="hero-background__slideshow--image {% if bg.first %}{{ bg.first }}{% endif %}"  src="{{ bg.path }}" srcset="{{ bg.path }}@2x{{ bg.extension }} 3000w,{{ bg.path }}{{ bg.extension }} 1500w, {{ bg.path }}@05x{{ bg.extension }} 750w, {{ bg.path }}@025x{{ bg.extension }} 400w">
+    {% endfor %}
+
+  </div>
+</div>

@@ -1,0 +1,1106 @@
+{
+    "page": {
+        "contenttitle": "Rob Lahoda • Multimedia Producer",
+        "shortdescription": "Multimedia producer based in Central Ohio",
+        "description": "For over 15 years I've been telling stories, first through still images and later through video as well. The passion that drives my art is learning someone's story and translating it into a visually compelling presentation.",
+        "href": "http://media.roblahoda.com",
+        "imagelink": "http://media.roblahoda.com/assets/img/lahoda-media-production-site-image.jpg",
+        "sitename": "Rob Lahoda • Multimedia Producer",
+        "twitterhandle": "@rmlahoda"
+
+
+    },
+    "bgs": {
+      "bg1": {
+        "first": "slideshow__image-active",
+        "path": "assets/img/photo63",
+        "extension": ".jpg"
+      },
+      "bg5": {
+        "path": "assets/img/poolcats_6-13-18",
+        "extension": ".jpg"
+      },
+      "bg4": {
+        "path": "assets/img/photo71",
+        "extension": ".jpg"
+      },
+      "bg3": {
+        "path": "assets/img/photo30",
+        "extension": ".jpg"
+      },
+      "bg2": {
+        "path": "assets/img/photo2",
+        "extension": ".jpg"
+      }
+
+    },
+    "photodescription": "From as early as I can remember, I was taking pictures of the world around me. As a young boy, I was introduced to my father's Pentax camera and my future was set. I knew I wanted to be a photographer. Starting with sports photography in high school I decided that photojournalism was the way to go. I graduated from the Ohio University School of Visual Communication program having being taught by Pulitzer Prize winners, National Geographic photographers and many other incredible experts in the field. Since graduation, I've expanded the work I do, but it still comes back to photography.",
+    "photos_people": {
+      "photo72": {
+          "caption": "Competitors dive into the water to start the girls 14 & Under 50 Meter Breaststroke race. Westerville, OH. Summer 2018",
+          "thumb": {
+              "path": "./assets/img/poolcats_6-13-18_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/poolcats_6-13-18",
+              "extension": ".jpg",
+              "alt": "Competitors dive into a pool to start a race at sunset."
+          }
+      },
+      "photo71": {
+          "caption": "A blowtorch is used to soften molten glass that will become a bottle at Fire Arts Vermont studio. Brattleboro, Vt. Summer, 2016",
+          "thumb": {
+              "path": "./assets/img/photo71_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo71",
+              "extension": ".jpg",
+              "alt": "A woman uses a large blowtorch to shape molten glass"
+          }
+      },
+      "photo70": {
+          "caption": "Randi Solin works with glass that will become a bottle at Fire Arts Vermont studio. Brattleboro, Vt. Summer, 2016",
+          "thumb": {
+              "path": "./assets/img/photo70_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo70",
+              "extension": ".jpg",
+              "alt": "A woman uses a small blowtorch to shape molten glass"
+          }
+      },
+      "photo49": {
+          "caption": "Kristy Lahoda walks down a street in the old town of Villefranche-sur-Mer, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo49_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo49",
+              "extension": ".jpg",
+              "alt": "A woman walks down a pedestrian street in an old French town"
+          }
+      },
+      "photo46": {
+          "caption": "A man contemplates the 9/11 memorial in New York City, NY. Spring, 2015",
+          "thumb": {
+              "path": "./assets/img/photo46_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo46",
+              "extension": ".jpg",
+              "alt": "A man looks out at the September 11th attacks memorial"
+          }
+      },
+      "photo44": {
+          "caption": "Kristy Lahoda swims butterfly in the ocean off the coast of Salvo, NC. Summer, 2014",
+          "thumb": {
+              "path": "./assets/img/photo44_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo44",
+              "extension": ".jpg",
+              "alt": "A woman swims butterfly in the ocean"
+          }
+      },
+      "photo38": {
+          "caption": "The hands of a young child hunting for acorns. Spring, 2014",
+          "thumb": {
+              "path": "./assets/img/photo38_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo38",
+              "extension": ".jpg",
+              "alt": "A closeup of a pair of dirty child's hands holding acorns"
+          }
+      },
+      "photo33": {
+          "caption": "Self portrait",
+          "thumb": {
+              "path": "./assets/img/photo33_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo33",
+              "extension": ".jpg",
+              "alt": "A portrait of a cyclist"
+          }
+      },
+      "photo30": {
+          "caption": "Kristy Lahoda practices swimming butterfly in an outdoor pool. Duck, NC. Summer, 2008",
+          "thumb": {
+              "path": "./assets/img/photo30_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo30",
+              "extension": ".jpg",
+              "alt": "A swimmer swims toward the camera showing her energy"
+          }
+      },
+      "photo28": {
+          "caption": "Kristy Lahoda practices swimming butterfly in an outdoor pool. Duck, NC. Summer, 2008",
+          "thumb": {
+              "path": "./assets/img/photo28_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo28",
+              "extension": ".jpg",
+              "alt": "A swimmer seen from overhead swimming butterfly"
+          }
+      },
+      "photo20": {
+          "caption": "Kristy Lahoda walks along the water on the island of Iona, Scotland. Summer, 2005",
+          "thumb": {
+              "path": "./assets/img/photo20_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo20",
+              "extension": ".jpg",
+              "alt": "A woman walks along the beach"
+          }
+      },
+      "photo19": {
+          "caption": "A piper takes a break while another is playing outside St Giles Cathedral during the Edinburgh Fringe Festival. Edinburgh, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo19_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo19",
+              "extension": ".jpg",
+              "alt": "A bagpiper plays while another sits nearby"
+          }
+      },
+      "photo18": {
+          "caption": "Two young fiddle players during the Edinburgh Fringe Festival. Edinburgh, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo18_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo18",
+              "extension": ".jpg",
+              "alt": "A young fiddle player looks at the camera"
+          }
+      },
+      "photo16": {
+          "caption": "A young boy looks out the front window of a canal boat on the Union canal during the annual Canal Days celebration in Linlithgow, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo16_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo16",
+              "extension": ".jpg",
+              "alt": "A boy looks out of a canal boat"
+          }
+      },
+      "photo15": {
+          "caption": "The captain of a small seal watching boat. Oban, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo15_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo15",
+              "extension": ".jpg",
+              "alt": "A sea captain looks at the camera with a wry smile"
+          }
+      },
+      "photo10": {
+          "caption": "Sebastian Fritz grinds metal in his home workshop. Plochingen, Germany. Winter, 2003",
+          "thumb": {
+              "path": "./assets/img/photo10_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo10",
+              "extension": ".jpg",
+              "alt": "Sparks fly as a man uses an angle grinder on some metal"
+          }
+      },
+      "photo9": {
+          "caption": "The Ohio University men's crew team practices early morning on Dow Lake near Athens, OH. Fall, 2002",
+          "thumb": {
+              "path": "./assets/img/photo9_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo9",
+              "extension": ".jpg",
+              "alt": "The crew team rows through the early morning fog"
+          }
+      },
+      "photo7": {
+          "caption": "A performer at the Edinburgh Fringe Festival, Edinburgh, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo7_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo7",
+              "extension": ".jpg",
+              "alt": "A man covered in silver paint stares into the camera"
+          }
+      },
+      "photo6": {
+          "caption": "Alvaro Llanos reads a 'get well soon' note at home. Llanos was recovering from severe burns suffered during a dorm fire at Seton Hall University that killed 3 students and seriously injured 58. Llanos and his roomate were critically burned trying to escape. In 2000 Llanos and his roomate were the subjects of a 9-month project by the Start-Ledger newspaper documenting their recovery. The photographer, Matt Rainey, won the 2001 Pulitzer Prize for the project. Matt was an early influence for me as a photographer and was kind enough to let me join him during one of his days of photographing the students. Spring, 2000",
+          "thumb": {
+              "path": "./assets/img/photo6_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo6",
+              "extension": ".jpg",
+              "alt": "A severely burned man touches his forehead while reading a note"
+          }
+      },
+      "photo5": {
+          "caption": "Randy Surface sits in a pew in Galbreath Chapel on the Ohio University campus. Spring, 2000",
+          "thumb": {
+              "path": "./assets/img/photo5_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo5",
+              "extension": ".jpg",
+              "alt": "A man reads alone inside a small chapel"
+          }
+      },
+      "photo4": {
+          "caption": "A small steamboat is readied for sailing on the Union canal during the annual Canal Days celebration in Linlithgow, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo4_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo4",
+              "extension": ".jpg",
+              "alt": "A small steamboat with a man standing in it"
+          }
+      },
+      "photo3": {
+          "caption": "Orlando Magic center, Michael Doleac, blocks New Jersey Nets guard, Stephon Marbury, during the Nets- Magic game on December 2, 2000 at the Meadowlands in New Jersey.  The Nets lost, 74-95.",
+          "thumb": {
+              "path": "./assets/img/photo3_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo3",
+              "extension": ".jpg",
+              "alt": "A basketball player is blocked mid-shot"
+          }
+      },
+      "photo2": {
+          "caption": "76 year-old retired VW dealer, Bob Cone puts half of a Volkswagen engine block on a stand for cleaning.  The engine was removed from the car behind him when he rebuilt the engine for a customer.  Now retired from restoring, he still works on cars for customers, but not as much as he used to.  Cone's attachment to the cars started in the early 70's when he bought one for himself.  The car is still in pristine working condition and has been used by him, his wife, and his son. Spring, 2000",
+          "thumb": {
+              "path": "./assets/img/photo2_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo2",
+              "extension": ".jpg",
+              "alt": "A man in a dusty barn repairs an engine block"
+          }
+      },
+        "photo1": {
+            "caption": "Sophomore Melissa Hicks practices her slalom technique during her weekly water-skiing class in spring 2000.  The class is offered to all students during spring quarter.",
+            "thumb": {
+                "path": "./assets/img/photo1_thumb",
+                "extension": ".jpg",
+                "alt": ""
+            },
+            "full": {
+                "path": "./assets/img/photo1",
+                "extension": ".jpg",
+                "alt": "A waterskier on a lake"
+            }
+        }
+
+    },
+    "photos_places":{
+      "photo69": {
+          "caption": "Water blurs as it flows over rocks. Burlington, VT. Summer, 2016",
+          "thumb": {
+              "path": "./assets/img/photo69_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo69",
+              "extension": ".jpg",
+              "alt": "Water blurs as it flows over rocks in a stream"
+          }
+      },
+      "photo67": {
+          "caption": "Leafless trees disappear into the mist. Raritan Township, NJ. Winter, 2015",
+          "thumb": {
+              "path": "./assets/img/photo67_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo67",
+              "extension": ".jpg",
+              "alt": "Leafless trees disappear into the mist"
+          }
+      },
+      "photo66": {
+          "caption": "L'Arc de Triomphe from the top of the Eiffel Tower. Paris, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo66_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo66",
+              "extension": ".jpg",
+              "alt": "The arc de Triomphe glows at night as seen from above"
+          }
+      },
+      "photo65": {
+          "caption": "La Sainte-Chappelle. Paris, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo65_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo65",
+              "extension": ".jpg",
+              "alt": "Stained glass windows glow inside the ancient chapel"
+          }
+      },
+      "photo64": {
+          "caption": "Looking up through the base of the Eiffel Tower from ground level. Paris, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo64_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo64",
+              "extension": ".jpg",
+              "alt": "The intricate beams forming the structure of the Eiffel Tower can be seen looking up from directly beneath the structure"
+          }
+      },
+      "photo63": {
+          "caption": "The sky continues to glow just after sunset behind the Eiffel Tower. Paris, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo63_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo63",
+              "extension": ".jpg",
+              "alt": "A golden sky is seen behind the illuminated Eiffel Tower"
+          }
+      },
+      "photo62": {
+          "caption": "The ceiling of Église Saint-Suplice. Paris, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo62_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo62",
+              "extension": ".jpg",
+              "alt": "A view straight up at the ceiling of a cathedral"
+          }
+      },
+      "photo61": {
+          "caption": "Lights illuminate the front of Strasbourg Cathedral. Strasbourg, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo61_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo61",
+              "extension": ".jpg",
+              "alt": "The darkened sky is seen above the illuminated front of a cathedral"
+          }
+      },
+      "photo60": {
+          "caption": "Dusk settles over the river Ill as lights illuminate les Ponts Couverts in the La Petite France section of Strasbourg, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo60_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo60",
+              "extension": ".jpg",
+              "alt": "The darkened sky and buildings are reflected over the canals as multicolored lights illuminate the bridges"
+          }
+      },
+      "photo59": {
+          "caption": "Dusk settles over a still canal in the La Petite France section of Strasbourg, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo59_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo59",
+              "extension": ".jpg",
+              "alt": "A canal is completely still, reflecting half timbered buildings as the sky slowly darkens"
+          }
+      },
+      "photo58": {
+          "caption": "The façade on the front of Strasbourg Cathedral. Strasbourg, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo58_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo58",
+              "extension": ".jpg",
+              "alt": "Intricate carvings cover the front of a large cathedral doorway"
+          }
+      },
+      "photo57": {
+          "caption": "Vines frame a view of Schauenberg, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo57_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo57",
+              "extension": ".jpg",
+              "alt": "Grape vines in the foreground with a town in the distance"
+          }
+      },
+      "photo56": {
+          "caption": "Vineyards, Alsace, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo56_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo56",
+              "extension": ".jpg",
+              "alt": "Rows of grape vines form patterns"
+          }
+      },
+      "photo55": {
+          "caption": "Flowers in front of the Eglise Gueberschwihr. Gueberschwihr, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo55_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo55",
+              "extension": ".jpg",
+              "alt": "A flower box in front of an old church"
+          }
+      },
+      "photo54": {
+          "caption": "A back street alleyway in Villefranche-sur-Mer, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo54_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo54",
+              "extension": ".jpg",
+              "alt": "A narrow pedestrian road in an old Mediterranian town"
+          }
+      },
+      "photo52": {
+          "caption": "The town of Menton, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo52_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo52",
+              "extension": ".jpg",
+              "alt": "An old Mediterranian town on the edge of the sea sits in the dusk light"
+          }
+      },
+      "photo51": {
+          "caption": "The town of Falicon, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo51_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo51",
+              "extension": ".jpg",
+              "alt": "A small hilltop town sits in the dusk light"
+          }
+      },
+      "photo48": {
+          "caption": "An oil well silently stands under the Milky Way. Winfield, KS. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo48_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo48",
+              "extension": ".jpg",
+              "alt": "An oil well sits in the dark under the Milky Way"
+          }
+      },
+      "photo47": {
+          "caption": "A Staten Island Ferry leaves Manhattan bound for Staten Island. New York City, NY. Spring, 2015",
+          "thumb": {
+              "path": "./assets/img/photo47_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo47",
+              "extension": ".jpg",
+              "alt": "A ferry sails near the Statue of Liberty"
+          }
+      },
+      "photo41": {
+          "caption": "The Bodie Island Lighthouse shines bright under the Milky Way. Nags Head, NC. Summer, 2014",
+          "thumb": {
+              "path": "./assets/img/photo41_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo41",
+              "extension": ".jpg",
+              "alt": "A lighthouse shines under the Milky Way"
+          }
+      },
+      "photo40": {
+          "caption": "Reminants of a shipwreck lie just off the beach near Salvo, NC. Summer, 2014",
+          "thumb": {
+              "path": "./assets/img/photo40_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo40",
+              "extension": ".jpg",
+              "alt": "A piece of a shipwreck sticks out of the water near a beach"
+          }
+      },
+      "photo34": {
+          "caption": "Strasburg Railroad engine 475 finishes the last trip of the day. Fall, 2013",
+          "thumb": {
+              "path": "./assets/img/photo34_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo34",
+              "extension": ".jpg",
+              "alt": "A steam engine pulls passenger cars through a field at dusk"
+          }
+      },
+      "photo31": {
+          "caption": "Frost coats a twig on a snowy day. Westerville, OH. Winter, 2009",
+          "thumb": {
+              "path": "./assets/img/photo31_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo31",
+              "extension": ".jpg",
+              "alt": "A twig is covered in frost with the sun behind it"
+          }
+      },
+      "photo22": {
+          "caption": "The view from Hohenzollern Castle near Heichingen, Germany. Spring, 2007",
+          "thumb": {
+              "path": "./assets/img/photo22_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo22",
+              "extension": ".jpg",
+              "alt": "The view out of four stained glass windows high above the valley below"
+          }
+      },
+      "photo21": {
+          "caption": "Mt Rainier. Washington State. Summer, 2006",
+          "thumb": {
+              "path": "./assets/img/photo21_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo21",
+              "extension": ".jpg",
+              "alt": "Mt Rainier peeks out of a layer of clouds"
+          }
+      },
+      "photo17": {
+          "caption": "St Giles Cathedral. Edinburgh, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo17_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo17",
+              "extension": ".jpg",
+              "alt": "The top of a cathedral against a blue sky"
+          }
+      },
+      "photo14": {
+          "caption": "Edinburgh Castle sits on a rocky cliff overlooking the city of Edinburgh, Scotland. Summer, 2001",
+          "thumb": {
+              "path": "./assets/img/photo14_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo14",
+              "extension": ".jpg",
+              "alt": "A castle lit up at night"
+          }
+      },
+      "photo13": {
+          "caption": "Twin beams of light rise from lower Manhattan, New York City, marking the sites of the former World Trade Center. The Tribute in Light memorial was erected to mark the site of the attacks on September 11, 2001. Winter, 2001",
+          "thumb": {
+              "path": "./assets/img/photo13_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo13",
+              "extension": ".jpg",
+              "alt": "Two pillars of light rise from the New York City skyline disappearing into the clouds"
+          }
+      },
+      "photo11": {
+          "caption": "Neuschwanstein Castle looms out of the snowy landscape. Füssen, Germany. Winter, 2003",
+          "thumb": {
+              "path": "./assets/img/photo11_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo11",
+              "extension": ".jpg",
+              "alt": "A castle peeks out of the wintery, cloudy sky"
+          }
+      },
+      "photo8": {
+          "caption": "Castle Stalker, near Fort Williams, Scotland. Summer 2001",
+          "thumb": {
+              "path": "./assets/img/photo8_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo8",
+              "extension": ".jpg",
+              "alt": "A castle sits among the cloudy mountains of the Scottish highlands"
+          }
+      }
+    },
+    "photos_things":{
+      "photo74": {
+          "caption": "The milky way. Winter, 2016",
+          "thumb": {
+              "path": "./assets/img/photo74_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo74",
+              "extension": ".jpg",
+              "alt": "The milky way shines in the night sky"
+          }
+      },
+      "photo72": {
+          "caption": "A finished handmade glass bottle at Fire Arts Vermont studio. Brattleboro, Vt. Summer, 2016",
+          "thumb": {
+              "path": "./assets/img/photo72_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo72",
+              "extension": ".jpg",
+              "alt": "A glass bottle is prepared to be removed from the pipe it was formed on"
+          }
+      },
+      "photo68": {
+          "caption": "The moon. Spring, 2016",
+          "thumb": {
+              "path": "./assets/img/photo68_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo68",
+              "extension": ".jpg",
+              "alt": "The moon is seen close up"
+          }
+      },
+      "photo53": {
+          "caption": "A cat rests on a cool metal rooftop early morning. Villefranche-sur-Mer, France. Summer, 2015",
+          "thumb": {
+              "path": "./assets/img/photo53_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo53",
+              "extension": ".jpg",
+              "alt": "A cat is curled up on a metal roof, sleeping"
+          }
+      },
+      "photo45": {
+          "caption": "A flower placed in the 9/11 memorial in New York City, NY. Spring, 2015",
+          "thumb": {
+              "path": "./assets/img/photo45_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo45",
+              "extension": ".jpg",
+              "alt": "A flower sticks out of a name in the September 11th attacks memorial"
+          }
+      },
+      "photo43": {
+          "caption": "The stairs leading up the inside of the Cape Hatteras Lighthouse. Buxton, NC. Summer, 2014",
+          "thumb": {
+              "path": "./assets/img/photo43_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo43",
+              "extension": ".jpg",
+              "alt": "Looking down a spiral staircase inside a lighthouse"
+          }
+      },
+      "photo42": {
+          "caption": "The stairs to the top of the Cape Hatteras Lighthouse. Buxton, NC. Summer, 2014",
+          "thumb": {
+              "path": "./assets/img/photo42_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo42",
+              "extension": ".jpg",
+              "alt": "A staircase leads up in a lighthouse"
+          }
+      },
+      "photo39": {
+          "caption": "Flower",
+          "thumb": {
+              "path": "./assets/img/photo39_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo39",
+              "extension": ".jpg",
+              "alt": "A closeup of a blue flower"
+          }
+      },
+      "photo37": {
+          "caption": "Leaf on wood background",
+          "thumb": {
+              "path": "./assets/img/photo37_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo37",
+              "extension": ".jpg",
+              "alt": "A closeup of a leaf"
+          }
+      },
+      "photo36": {
+          "caption": "Orchid.",
+          "thumb": {
+              "path": "./assets/img/photo36_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo36",
+              "extension": ".jpg",
+              "alt": "A closeup of an orchid"
+          }
+      },
+      "photo35": {
+          "caption": "Leaf.",
+          "thumb": {
+              "path": "./assets/img/photo35_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo35",
+              "extension": ".jpg",
+              "alt": "An extreme closeup of a leaf"
+          }
+      },
+      "photo32": {
+          "caption": "Closeup of bicycle rear casette.",
+          "thumb": {
+              "path": "./assets/img/photo32_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo32",
+              "extension": ".jpg",
+              "alt": "A closeup of a bicycle rear cassette"
+          }
+      },
+      "photo29": {
+          "caption": "A shell sits in the receding tide. Duck, NC. Summer, 2008",
+          "thumb": {
+              "path": "./assets/img/photo29_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo29",
+              "extension": ".jpg",
+              "alt": "A dark shell stands out from the golden sand"
+          }
+      },
+      "photo27": {
+          "caption": "A cat peeks through the some blinds. Westerville, OH. Summer, 2008",
+          "thumb": {
+              "path": "./assets/img/photo27_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo27",
+              "extension": ".jpg",
+              "alt": "A cat stares at the camera"
+          }
+      },
+      "photo26": {
+          "caption": "A male mandrill at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006",
+          "thumb": {
+              "path": "./assets/img/photo26_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo26",
+              "extension": ".jpg",
+              "alt": "A male mandrill looks menacing"
+          }
+      },
+      "photo25": {
+          "caption": "A gibbon takes a moment to ponder life at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006",
+          "thumb": {
+              "path": "./assets/img/photo25_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo25",
+              "extension": ".jpg",
+              "alt": "A gibbon sits looking thoughtful"
+          }
+      },
+      "photo24": {
+          "caption": "A ray glides along the glass at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006",
+          "thumb": {
+              "path": "./assets/img/photo24_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo24",
+              "extension": ".jpg",
+              "alt": "A ray swims in a tank"
+          }
+      },
+      "photo23": {
+          "caption": "A flamingo cleans off at the Columbus Zoo and Aquarium. Columbus, OH. Summer, 2006",
+          "thumb": {
+              "path": "./assets/img/photo23_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/photo23",
+              "extension": ".jpg",
+              "alt": "A flamingo cleans off in a pond"
+          }
+      }
+    },
+    "videodescription": "As I grew as a visual storyteller, I experimented with different ways of telling the story. One of these was through creating photo slideshows. As I experimented with different video editing programs to create my slideshows, I decided to try to use those programs to create actual videos. Thus was born my love of video production. While completing my photojournalism degree, I started taking video producion classes so I was able to stick around for 1 more year and earn the video degree on top of my photography degree. Since then I've worked doing a variety of video production, including single-camera narrative, interview-based, sports, live event recording and other projects. I've had lots of fun travelling around the world for projects to help my clients tell their stories the most effectively.",
+    "videos" : {
+      "video12": {
+        "title": "Il m'a aimé (He Loved Me)",
+        "href": "https://www.youtube.com/watch?v=TScU69Wk79c",
+        "caption": "In early 2015 I was asked to help a friend film a music video. He's an African singer now living in the USA and he had already recorded his latest song but didn't have a video for it yet. Over the course of a few months, we put together an idea and filmed it in spring, 2016. Since he didn't have a budget, I was the full crew, but it was a lot of fun to work so closely with the artist and try to figure out what the best way to visualize his music would be.",
+        "thumb": {
+            "path": "./assets/img/il_ma_aime",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video11": {
+        "title": "American Triple-T 2016 Promo",
+        "href": "https://www.youtube.com/watch?v=83snm30rhTU",
+        "caption": "The American Triple-T in Ohio has an almost cult like following that continues to attract athletes from more than 40 states and 5 countries each year. Scheduled for the first weekend before Memorial Day each year, the American Triple-T is played out in the majestic Shawnee State Park and Forest located in Portsmouth, Ohio, just 1.5 hours by car from the Columbus, Cincinnati and the Tri State areas. The Shawnee State Park and Forest is known for its spectacular beauty, peaceful bliss and a wide variety of challenging terrain as it is nestled in the southeast corner of Ohio.",
+        "thumb": {
+            "path": "./assets/img/ttt2016promo",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video10": {
+        "title": "Kristy Lahoda - Anorexia",
+        "href": "https://www.youtube.com/watch?v=zFrSzjyKK4s",
+        "caption": "In spring 2015 Nikon was running a competition that involved telling your story in a video. I decided to enter and, with the help of my wife Kristy Lahoda, put together a short video telling the story of her 20-year battle with anorexia.",
+        "thumb": {
+            "path": "./assets/img/kristyan",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video6": {
+        "title": "American Triple-T 2015 Promo",
+        "href": "https://www.youtube.com/watch?v=lbJxnfzxRp8",
+        "caption": "After the weekend, the work on the promo began again. This year, thanks to the rain, none of my interviews worked out. So I decided to come from a different approach. The client said they wanted to highlight the difficulty of the race so I came up with a short script and found some inspiring and intense music and had a voiceover recorded. The end result, I think, came out really awesome. It's always a challenge trying to fit this crazy weekend into a short video but it's a lot of fun to film and edit!",
+        "thumb": {
+            "path": "./assets/img/ttt2015promo",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video5": {
+        "title": "American Triple-T 2015 Recap",
+        "href": "https://www.youtube.com/watch?v=c6NmFUCeoN0",
+        "caption": "Once again I was called up to return to Southern Ohio for another fun filled weekend filming the Triple-T! With two years already under my belt I knew what I was getting into, but there are always surprises. This year it was rainy. Not just a little drizzle or something, this was a full-on downpour at times. In fact, if you watch closely during this video at the end when racers are coming into the finish it kinda looks like they are different days because some shots are dry and sunny and others are heavy rain, but those shots were within an hour of each other. That's how crazy the rain was this year.&nbsp; Once again, I wanted to add a new element into the mix. This year it was a mini jib. I went with the Genustech Mini Jib because I was looking for something compact, lightweight and well built. The jib worked way better than I could have imagined it would. It added another great dimension to the look and feel of the video allowing me to get the camera in places I hadn't been able to try before.",
+        "thumb": {
+            "path": "./assets/img/ttt2015recap",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video4": {
+        "title": "American Triple-T 2014 Promo",
+        "href": "https://www.youtube.com/watch?v=Q6Q5Yz-S6gI",
+        "caption": "Once again, after the weekend came to a close I returned home to begin working on the edit for the promo video. This time, instead of interviewing racers after the fact, I decided to try to get some interviews during the times between races. This worked out really well. I was able to go to the nearby campground where a lot of racers were camping as well as the cabins on the park grounds. Getting these stories added a lot to the video and really showed what the weekend is all about. It's not just a race, it's about the camaraderie and friendships that are built through sharing in this pain fest all weekend.",
+        "thumb": {
+            "path": "./assets/img/ttt2014promo",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video3": {
+        "title": "American Triple-T 2014 Recap",
+        "href": "https://www.youtube.com/watch?v=aZE_vtUSa4Y",
+        "caption": "The second time around for the Triple-T was a ton of fun. After the crazy adventure of the first year, I came back with a better idea of what I was getting into and what I needed to do. In addition, I had a few new tricks up my sleeve. The first was that I switched from shooting with my tape-based HDV camera to a DSLR. I rented a Nikon D800 from Lensrentals.com and used that as my primary camera throughout the weekend. I also added a GoPro as a secondary camera which allowed me to get some pretty great shots of the racers in motion. One of my favorite shots was when I put the GoPro on the back of my car and paced near a racer. I also added a camera slider to give me a variety of camera moves I wasn't able to achieve previously. Instead of going with a standard one on rails, I decided to go with the CineMover which is more a mini dolly than a slider. The cool thing with the CineMover is that you can use it on anything that is flat so I brought a metal sawhorse and a piece of vinyl  fence post to use for the sliding moves. Between the two I was able to capture higher and lower moves. Having the Cinemover added a lot to the impact of the video.",
+        "thumb": {
+            "path": "./assets/img/ttt2014recap",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video9": {
+        "title": "Challenge New Albany Race Day Recap",
+        "href": "https://www.youtube.com/watch?v=SNOGa2GguwY",
+        "caption": "Doing a same-day edit is always a challenge. Add to that the fact that I was shooting solo and chasing racers over a 50+ mile course and you have quite an adventure. The whole weekend was a blur of races, editing and moving around starting before dawn each morning and going late into the evening each night. My client wanted something that would show the fun and excitement of the race weekend as well as show off the professional triathletes who came to race. This meant that when shooting the big half-iron distance race on Sunday I needed to capture as much as I could at the swim site and then race ahead of the pack to capture the leaders as they went along the course. The challenge is balanced by the reward and satisfaction of pulling together something exciting on such a short time frame.",
+        "thumb": {
+            "path": "./assets/img/cnarecap",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video8": {
+        "title": "Challenge Rancho Cordova Pre-Race Sizzle Reel",
+        "href": "https://www.youtube.com/watch?v=i_iIK3zNTf4",
+        "caption": "After creating the Challenge New Albany pre-race promo video I was approached by the race director of another new race, this time in California, Challenge Rancho Cordova. The premise was similar, I needed to create a video to build excitement and help the race director build sponsors. The client only had a series of stock images and video from the larger Challenge organization that I could use to create the product. In addition, the client needed the video on an extremely tight turnaround. &nbsp; I was able to reuse some of the sequences I created for the Challenge New Albany video in addition to creating new content for this video. Ultimately, I was able to deliver the video on time for some critical sponsorship meetings.",
+        "thumb": {
+            "path": "./assets/img/crcsizzle",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video7": {
+        "title": "Challenge New Albany Pre-Race Promo",
+        "href": "https://www.youtube.com/watch?v=SRLza-L-RiQ",
+        "caption": "So how do you promote a race that doesn't exist yet? That was the challenge I was given by the client when I was asked to create a promo video that would build excitement and energy for a new race coming up later that year. Challenge New Albany was a new race as a part of the Challenge Family of races and would involve half-iron and Olympic distance races as well as a series of other races that would be running throughout the weekend.&nbsp; I was asked to create this video to show the different races and some of the information about the event by the race management company in charge of the event, HFP Racing. They were able to supply me with a large amount of stock images from the Challenge Family that I could use to build the video from. I then took those images and build motion graphics using the images as well as other elements I created myself to match the branding and feel of the original image.",
+        "thumb": {
+            "path": "./assets/img/cnapromo",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video2": {
+        "title": "American Triple-T 2013 Promo",
+        "href": "https://www.youtube.com/watch?v=ExZW7-lMU6g",
+        "caption": "After working hard on the recap video, I came back home and got to work on producing a promotional video for Triple-T with the footage I shot. I decided to ask for some volunteers to be interviewed in the Columbus area and was able to connect with three. My goal was to weave their stories throughout the video to give the audience a feel for what it takes to complete the race.",
+        "thumb": {
+            "path": "./assets/img/ttt2013promo",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
+      "video1": {
+        "title": "American Triple-T 2013 Recap",
+        "href": "https://www.youtube.com/watch?v=PmOGE52HIGs",
+        "caption": "It started as a simple request, but has grown to be one of my favorite events to film each year. The American Triple-T is a three-day triathlon series in southern Ohio. This intense race has been challenging racers for years with it's steep climbs and challenging terrain. This first year was a blur of running around trying to film the racers as the covered over a hundred miles of racing that weekend. In addition, I would go back to my room and spend hours capturing and editing my footage. At the end of the race during the awards ceremony I played this video made up of footage from all three days of racing. It was an intense effort made even more challenging by the fact that I was filming the event on my Sony HDV camera. So once I was done filming I still had a real-time capture ahead before I could start to work with the footage.",
+        "thumb": {
+            "path": "./assets/img/ttt2013recap",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      }
+
+
+    }
+}

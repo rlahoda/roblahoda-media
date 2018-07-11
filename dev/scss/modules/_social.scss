@@ -1,0 +1,56 @@
+// .social__facebook {
+//   @include sprite(facebook);
+// }
+//
+// .social__twitter {
+//   @include sprite(twitter);
+// }
+
+// .icons {
+//   background-color: $primary-grey;
+// }
+
+.icon-twitter {
+  &::before {
+    @include sprite(twitter);
+
+    margin-right: 5px;
+    content: '';
+  }
+}
+
+.icon-facebook {
+  &::before {
+    @include sprite(facebook);
+
+    margin-right: 5px;
+    content: '';
+  }
+}
+
+.icon-twitter-hover {
+  &::before {
+    @include sprite(twitterHover);
+
+    margin-right: 5px;
+    content: '';
+  }
+}
+
+.icon-stillCamera {
+  &::before {
+    @include sprite(stillCamera);
+
+    margin-right: 5px;
+    content: '';
+  }
+}
+
+.icon-phone {
+  &::before {
+    @include sprite(phone-white);
+
+    margin-right: 5px;
+    content: '';
+  }
+}

@@ -1,0 +1,65 @@
+.square {
+  width: 100%;
+  height: auto;
+}
+
+.photos__container {
+  background-color: $primary-gray;
+  padding: 50px 0;
+  color: #fff;
+  // width: 100%;
+  background-image: url("../assets/img/moon_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.photos-grid {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 50px 0;
+}
+
+.photos-thumbs__container {
+  width: 40%;
+  max-width: 40%;
+  padding-bottom: 50px;
+  // background-color: blue;
+
+  @include respond-at($bp-xsmall) {
+    width: 30%;
+    max-width: 60%;
+  }
+
+  @include respond-at($bp-small) {
+    width: 20%;
+    max-width: 40%;
+  }
+
+  @include respond-at($bp-med) {
+    width: 10%;
+    max-width: 20%;
+  }
+
+  @include respond-at($bp-large) {
+    width: 8%;
+    max-width: 16%;
+  }
+
+  // background-color: blue;
+  float: left;
+  margin: 3%;
+  flex: 1 1 auto;
+}
+
+.photos-thumbs__thumb {
+  width: 100%;
+  border: solid 1px #d4d4d4;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+  // background-color: green;
+}

@@ -1,0 +1,35 @@
+.l_container {
+  width: 100%;
+  // background-color: purple;
+
+  @include respond-at($bp-small) {
+    width: 78%;
+  }
+
+  @include respond-at($bp-med) {
+    width: 79%;
+  }
+
+  @include respond-at($bp-large) {
+    width: 84%;
+  }
+}
+
+.l_article {
+  // background-color: orange;
+  width: 100%;
+  float: none;
+
+  @include respond-at($bp-small) {
+    float: left;
+    width: 71%;
+  }
+}
+
+.l_nav_container {
+  display: none;
+
+  @include respond-at($bp-small) {
+    display: inline;
+  }
+}

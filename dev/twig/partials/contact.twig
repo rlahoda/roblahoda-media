@@ -1,0 +1,34 @@
+<div class="section_container contact__container" id="contact">
+    <div id="form-messages"></div>
+    <h2 class="center-text">Drop me a line</h2>
+    <p class="center-text">I would love to hear from you! Fill out this form if you're interested in purchasing prints and also I'm available to help you with your multimedia production needs.</p>
+    <form id="ajax-contact" class="contact__form" action="mailer.php" method="post">
+        <div class="form__container">
+            <div class="form__field">
+                <label for="name" ><h3>Name:</h3></label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form__field">
+                <label for="email"><h3>Email:</h3></label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </div>
+
+        <div class="form__container">
+            <div class="form__field">
+                <label for="message"><h3>Message:</h3></label>
+                <textarea id="message" name="message" required rows="6"></textarea>
+            </div>
+        </div>
+        <div class="form__container form__container--wide">
+            <div class="form__field">
+                <button type="submit">Send</button>
+            </div>
+        </div>
+        <div class="clearfix">
+
+        </div>
+    </form>
+
+</div>

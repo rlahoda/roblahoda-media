@@ -1,0 +1,152 @@
+<head>
+    <meta charset="utf-8">
+    <!-- set character encoding for the document -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Allows control over where resources are loaded from -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+    <meta name="description" content="{{ page.description }}">
+    <!-- Control the behavior of search engine crawling and indexing -->
+    <meta name="robots" content="index,follow,noodp">
+    <!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow">
+    <!-- Google Specific -->
+    <!-- Short description of your site's subject -->
+    <meta name="subject" content="{{ page.shortdescription }}">
+    <!-- Full domain name or web address -->
+    <meta name="url" content="{{ page.href }}">
+
+    <!-- favicon stuff: just go to http://realfavicongenerator.net/ and paste in the info necessary -->
+    <!-- <meta property="fb:app_id" content="123456789"> -->
+    <meta property="og:url" content="{{ page.href }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.contenttitle }}">
+    <meta property="og:image" content="{{ page.imagelink }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:site_name" content="{{ page.sitename }}">
+    <meta property="og:locale" content="en_US">
+    <!-- <meta property="article:author" content=""> -->
+    <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
+    <!-- Open Graph: http://ogp.me/ -->
+
+    <meta name="twitter:card" content="summary">
+    <!-- <meta name="twitter:site" content="@site_account"> -->
+    <meta name="twitter:creator" content="{{ page.twitterhandle }}">
+    <meta name="twitter:url" content="{{ page.href }}">
+    <meta name="twitter:title" content="{{ page.contenttitle }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ page.imagelink }}">
+    <!-- More info: https://dev.twitter.com/cards/getting-started -->
+    <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
+    <!-- <link href="https://plus.google.com/+YourPage" rel="publisher"> -->
+    <meta itemprop="name" content="{{ page.contenttitle }}">
+    <meta itemprop="description" content="{{ page.description }}">
+    <meta itemprop="image" content="{{ page.imagelink }}">
+
+    <!-- thanks to Josh Buchea and the other contributors at https://github.com/joshbuchea/HEAD for the head tags -->
+
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css" type="text/css" media="screen"/>
+    <script type="text/javascript" src="vendor/fancybox/jquery.fancybox.pack.js"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="vendor/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen"/>
+    <script type="text/javascript" src="vendor/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="vendor/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="vendor/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen"/>
+    <script type="text/javascript" src="vendor/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <script src="https://use.typekit.net/lbb4ssu.js"></script>
+    <script>
+        try {
+            Typekit.load({async: true});
+        } catch (e) {}
+    </script>
+    <script>
+    var thisHash = window.location.hash;
+$(document).ready(function() {
+ if(window.location.hash) {
+  $(thisHash).fancybox().trigger('click');
+ }
+ $('.fancylink').fancybox();
+}); // ready
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                padding: 0,
+                margin: 10,
+                nextEffect: 'fade',
+                nextSpeed: 500,
+                prevEffect: 'fade',
+                prevSpeed: 500,
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    overlay: {
+                        css: {
+                            'background': 'rgba(255,255,255,0.5)',
+                            'text-align': 'center'
+                        }
+                    }
+                }
+            });
+
+        });
+
+        $(document).ready(function() {
+            $(".fancybox-media").fancybox({
+                padding: 0,
+                margin: 10,
+                openEffect: 'none',
+                closeEffect: 'none',
+                height: 675,
+                width: 1200,
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    },
+                    overlay: {
+                        css: {
+                            'background': 'rgba(255,255,255,0.5)',
+                            'text-align': 'center'
+                        }
+                    },
+                    media: {}
+                }
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("button#primary-nav__button-button").click(function() {
+                $("ul.primary-nav__nav-list--hamburger").slideToggle(300);
+            });
+        });
+
+        $(document).ready(function() {
+            $("a.primary-nav__nav-list-item--hamburger").click(function() {
+                $("ul.primary-nav__nav-list--hamburger").slideToggle(300);
+            });
+        });
+
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length
+                        ? target
+                        : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+    <title>{{ page.contenttitle }}</title>
+
+</head>

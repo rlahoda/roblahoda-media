@@ -1,0 +1,29 @@
+.section_container {
+  width: 100%;
+  // background-color: orange;
+  display: block;
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.text-block {
+  margin: 20px 10%;
+}
+
+.success {
+  background-color: $success;
+  height: 50px;
+  transition: all 1s ease-in-out;
+}
+
+.error {
+  background-color: $error;
+  height: 50px;
+}

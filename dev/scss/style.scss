@@ -1,0 +1,20 @@
+/*
+Theme Name: Kristy Watercolor
+Author: Rob Lahoda
+Author URI: http://www.roblahoda.com/
+Version: 1.
+Description:
+*/
+
+// Reset
+@import "partials/reset"; // This code is normalize.css from http://necolas.github.io/normalize.css/
+
+// Base
+@import "partials/base"; // Single-element selectors such as html, body, form, a, a:hover
+
+// Partials
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/figures";
+@import "partials/grids";
+@import "partials/state";

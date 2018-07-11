@@ -1,0 +1,17 @@
+<div class="section_container videos__container" id="videos">
+  <h2 class="center-text">Videos</h2>
+  {% if videodescription %}
+  <p class="center-text text-block">{{ videodescription }}</p>
+  {% endif %}
+    <ul class="videos-grid">
+        {% for video in videos %}
+            <li class="videos-thumbs__container">
+                <a class="fancybox-media" href="{{ video.href }}" title="{{ video.caption }}">
+                    <img class="photos-thumbs__thumb" src="{{ video.thumb.path }}{{ video.thumb.extension }}" srcset="{{ video.thumb.path }}@2x{{ video.thumb.extension }} 2x, {{ photo.thumb.path }}{{ video.thumb.extension }} 1000w, {{ video.thumb.path }}@05x{{ video.thumb.extension }} 500w" alt="{{ photo.thumb.alt }}"/>
+                </a>
+                <h4 class="center-text">{{ video.title }}</h4>
+            </li>
+        {% endfor %}
+    </ul>
+  <div class="clearfix"></div>
+</div>
