@@ -36,6 +36,32 @@
     },
     "photodescription": "From as early as I can remember, I was taking pictures of the world around me. As a young boy, I was introduced to my father's Pentax camera and my future was set. I knew I wanted to be a photographer. Starting with sports photography in high school I decided that photojournalism was the way to go. I graduated from the Ohio University School of Visual Communication program having being taught by Pulitzer Prize winners, National Geographic photographers and many other incredible experts in the field. Since graduation, I've expanded the work I do, but it still comes back to photography.",
     "photos_people": {
+      "photo74": {
+          "caption": "A competitor turns at the wall during the girls 14 & Under 50 Meter Breaststroke race. Westerville, OH. Summer 2018",
+          "thumb": {
+              "path": "./assets/img/201807114785_poolcats meet 7-11-18_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/201807114785_poolcats meet 7-11-18",
+              "extension": ".jpg",
+              "alt": "A swimmer in the middle of turning during a swimming race."
+          }
+      },
+      "photo73": {
+          "caption": "A competitor breathes during the Girls 8 & Under 25 Meter Breaststroke race. Westerville, OH. Summer 2018",
+          "thumb": {
+              "path": "./assets/img/201806133212_poolcats meet 6-13-18_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/201806133212_poolcats meet 6-13-18",
+              "extension": ".jpg",
+              "alt": "Competitors dive into a pool to start a race at sunset."
+          }
+      },
       "photo72": {
           "caption": "Competitors dive into the water to start the girls 14 & Under 50 Meter Breaststroke race. Westerville, OH. Summer 2018",
           "thumb": {
