@@ -1006,6 +1006,16 @@
     },
     "videodescription": "As I grew as a visual storyteller, I experimented with different ways of telling the story. One of these was through creating photo slideshows. As I experimented with different video editing programs to create my slideshows, I decided to try to use those programs to create actual videos. Thus was born my love of video production. While completing my photojournalism degree, I started taking video producion classes so I was able to stick around for 1 more year and earn the video degree on top of my photography degree. Since then I've worked doing a variety of video production, including single-camera narrative, interview-based, sports, live event recording and other projects. I've had lots of fun travelling around the world for projects to help my clients tell their stories the most effectively.",
     "videos" : {
+      "video13": {
+        "title": "Motion Graphics Reel",
+        "href": "https://vimeo.com/282945349",
+        "caption": "A selection of my motion graphics work",
+        "thumb": {
+            "path": "./assets/img/motion_graphics",
+            "extension": ".jpg",
+            "alt": ""
+        }
+      },
       "video12": {
         "title": "Il m'a aimé (He Loved Me)",
         "href": "https://www.youtube.com/watch?v=TScU69Wk79c",
