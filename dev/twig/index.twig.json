@@ -39,25 +39,38 @@
       "photo74": {
           "caption": "A competitor turns at the wall during the girls 14 & Under 50 Meter Breaststroke race. Westerville, OH. Summer 2018",
           "thumb": {
-              "path": "./assets/img/201807114785_poolcats meet 7-11-18_thumb",
+              "path": "./assets/img/201807114785_poolcats_7-11-18_thumb",
               "extension": ".jpg",
               "alt": ""
           },
           "full": {
-              "path": "./assets/img/201807114785_poolcats meet 7-11-18",
+              "path": "./assets/img/201807114785_poolcats_7-11-18",
               "extension": ".jpg",
               "alt": "A swimmer in the middle of turning during a swimming race."
+          }
+      },
+      "photo75": {
+          "caption": "A competitor swims butterfly in the girls 18 & Under 100 Yard Butterfly race in the GSCL swimming championships. Delaware, OH. Summer 2018",
+          "thumb": {
+              "path": "./assets/img/201807176721_poolcats_7-17-18_thumb",
+              "extension": ".jpg",
+              "alt": ""
+          },
+          "full": {
+              "path": "./assets/img/201807176721_poolcats_7-17-18",
+              "extension": ".jpg",
+              "alt": "A swimmer swimming butterfly emerges from the water with the ripples of water spiked off of her back."
           }
       },
       "photo73": {
           "caption": "A competitor breathes during the Girls 8 & Under 25 Meter Breaststroke race. Westerville, OH. Summer 2018",
           "thumb": {
-              "path": "./assets/img/201806133212_poolcats meet 6-13-18_thumb",
+              "path": "./assets/img/201806133212_poolcats_6-13-18_thumb",
               "extension": ".jpg",
               "alt": ""
           },
           "full": {
-              "path": "./assets/img/201806133212_poolcats meet 6-13-18",
+              "path": "./assets/img/201806133212_poolcats_6-13-18",
               "extension": ".jpg",
               "alt": "Competitors dive into a pool to start a race at sunset."
           }
