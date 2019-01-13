@@ -702,7 +702,6 @@ button {
 .photos-thumbs__container {
   width: 40%;
   max-width: 40%;
-  padding-bottom: 50px;
   float: left;
   margin: 3%;
   -webkit-box-flex: 1;
@@ -718,12 +717,12 @@ button {
       max-width: 40%; } }
   @media only screen and (min-width: 1000px) {
     .photos-thumbs__container {
-      width: 10%;
+      width: 15%;
       max-width: 20%; } }
   @media only screen and (min-width: 1600px) {
     .photos-thumbs__container {
-      width: 8%;
-      max-width: 16%; } }
+      width: 12%;
+      max-width: 20%; } }
 
 .photos-thumbs__thumb {
   width: 100%;

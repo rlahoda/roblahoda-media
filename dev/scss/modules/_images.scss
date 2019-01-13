@@ -28,7 +28,6 @@
 .photos-thumbs__container {
   width: 40%;
   max-width: 40%;
-  padding-bottom: 50px;
   // background-color: blue;
 
   @include respond-at($bp-xsmall) {
@@ -42,13 +41,13 @@
   }
 
   @include respond-at($bp-med) {
-    width: 10%;
+    width: 15%;
     max-width: 20%;
   }
 
   @include respond-at($bp-large) {
-    width: 8%;
-    max-width: 16%;
+    width: 12%;
+    max-width: 20%;
   }
 
   // background-color: blue;
